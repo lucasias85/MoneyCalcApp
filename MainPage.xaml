@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoneyCalcApp.MainPage"
+             Shell.NavBarIsVisible="False"
+             Title="MainPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <VerticalStackLayout Grid.Row="0" BackgroundColor="#0B60B0" Padding="10">
+            <Label
+                Text="Olá, Seja Bem Vindo"
+                FontSize="Header"
+                TextColor="#FFF"/>
+            <Image
+                Source="app_logo_color.png"
+                Margin="0,30"/>
+            <Label
+                Text="MONEY Calculator"
+                FontSize="Large"
+                FontAttributes="Bold"
+                TextColor="#FFF"
+                HorizontalTextAlignment="Center"
+                Scale="2"
+                Padding="0,10"/>
+        </VerticalStackLayout>
+
+        <HorizontalStackLayout Grid.Row="1" BackgroundColor="#FFF" Padding="0,40" Spacing="40" HorizontalOptions="CenterAndExpand">
+
+            <StackLayout Spacing="10" MaximumWidthRequest="90">
+                <Button
+                    ImageSource="enviar_color.png"
+                    BackgroundColor="#F0EDCF"
+                    CornerRadius="20"/>
+                <Label
+                    Text="Simular Envio"
+                    FontSize="Default"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+                    LineBreakMode="WordWrap"/>
+            </StackLayout>
+
+            <StackLayout Spacing="10" MaximumWidthRequest="90">
+                <Button
+                    ImageSource="receber_color.png"
+                    BackgroundColor="#F0EDCF"
+                    CornerRadius="20"/>
+                <Label
+                    Text="Simular Recebimento"
+                    FontSize="Default"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+                    LineBreakMode="WordWrap"/>
+            </StackLayout>
+
+            <StackLayout Spacing="10" MaximumWidthRequest="90">
+                <Button
+                    ImageSource="sale_tax_color.png"
+                    BackgroundColor="#F0EDCF"
+                    CornerRadius="20"/>
+                <Label
+                    Text="Configurar Taxas"
+                    FontSize="Default"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+                    LineBreakMode="WordWrap"/>
+            </StackLayout>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout Grid.Row="2" BackgroundColor="#FFF" Spacing="40" HorizontalOptions="CenterAndExpand">
+
+            <StackLayout Spacing="10" MaximumWidthRequest="90">
+                <Button
+                    ImageSource="sobre_color.png"
+                    BackgroundColor="#F0EDCF"
+                    CornerRadius="20"/>
+                <Label
+                    Text="Sobre App..."
+                    FontSize="Default"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+                    LineBreakMode="WordWrap"/>
+            </StackLayout>
+
+            <StackLayout Spacing="10" MaximumWidthRequest="90">
+                <Button
+                    ImageSource="ajuda_color.png"
+                    BackgroundColor="#F0EDCF"
+                    CornerRadius="20"/>
+                <Label
+                    Text="Ajuda ?"
+                    FontSize="Default"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+                    LineBreakMode="WordWrap"/>
+            </StackLayout>
+
+        </HorizontalStackLayout>
+
+        <StackLayout Grid.Row="3" Orientation="Horizontal" Padding="5">
+            <Label
+                Text="Desenvolvido por @lucasias85"
+                FontSize="Micro"
+                FontAttributes="Bold"
+                TextColor="#000"
+                VerticalTextAlignment="Center"
+                HorizontalOptions="StartAndExpand"/>
+            <Label
+                Text="Versão 0.01 Alpha"
+                FontSize="Micro"
+                FontAttributes="Bold"
+                VerticalTextAlignment="Center"/>
+        </StackLayout>
+
+    </Grid>
+</ContentPage>
