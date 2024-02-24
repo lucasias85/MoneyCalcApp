@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace MoneyCalcApp.AppCode.Models
 {
-    [Table("tableTaxas")]
-    public class TaxasInfo
+    public class TaxasInfoModel
     {
         [PrimaryKey, AutoIncrement]
         public int IdTaxa { get; set; }

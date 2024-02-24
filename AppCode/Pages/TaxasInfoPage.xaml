@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoneyCalcApp.AppCode.Pages.TaxasInfoPage"
+             Title="TaxasInfoPage">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <VerticalStackLayout Grid.Row="0" Padding="20" BackgroundColor="#0B60B0" Spacing="20">
+            <Image
+                Source="board_color.png"/>
+            <Label
+                Text="Taxas Aplicadas"
+                FontSize="Title"
+                FontAttributes="Bold"
+                TextColor="#FFF"
+                HorizontalTextAlignment="Center"/>
+        </VerticalStackLayout>
+        
+        <StackLayout Grid.Row="1" Orientation="Horizontal" Padding="10" Spacing="20" HorizontalOptions="Center">
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal01"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 01x:"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal02"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 02x:"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal03"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 03x:"/>
+                </VerticalStackLayout>
+            </Frame>
+        </StackLayout>
+        
+        <StackLayout Grid.Row="2" Orientation="Horizontal" Padding="10" Spacing="20" HorizontalOptions="Center">
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal04"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 04x:"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal05"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 05x:"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal06"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 06x:"/>
+                </VerticalStackLayout>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Grid.Row="3" Orientation="Horizontal" Padding="10" Spacing="20" HorizontalOptions="Center">
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal07"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 07x:"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal08"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 08x:"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal09"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 09x:"/>
+                </VerticalStackLayout>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Grid.Row="4" Orientation="Horizontal" Padding="10" Spacing="20" HorizontalOptions="Center">
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal10"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 10x:"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal11"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 11x:"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame BackgroundColor="#EEF5FF" BorderColor="#0B60B0" CornerRadius="20">
+                <VerticalStackLayout >
+                    <Entry
+                        x:Name="TaxaTotal12"
+                        HorizontalTextAlignment="Center"
+                        Keyboard="Numeric"
+                        ReturnType="Next"
+                        Placeholder="00,00%"/>
+                    <Label
+                        Text="Taxa 12x:"/>
+                </VerticalStackLayout>
+            </Frame>
+        </StackLayout>
+
+        <StackLayout Grid.Row="5">
+            <Button
+                x:Name="SalvarTaxas"
+                Text="Salvar"
+                FontAttributes="Bold"
+                Margin="50,25"
+                BackgroundColor="#0B60B0"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

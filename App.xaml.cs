@@ -6,7 +6,8 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new AppCode.Pages.TaxasInfoPage();
+            //MainPage = new AppShell();
         }
     }
 }

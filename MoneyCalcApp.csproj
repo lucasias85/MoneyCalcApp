@@ -87,10 +87,12 @@
 
 	<ItemGroup>
 	  <Folder Include="AppCode\Helpers\" />
-	  <Folder Include="AppCode\Pages\" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="AppCode\Pages\TaxasInfoPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="MainPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
